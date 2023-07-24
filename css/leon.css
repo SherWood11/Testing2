@@ -1,0 +1,39 @@
+    /* Start Variables */
+  :root{
+    --mainColor:blue;
+    --mainPadding:10px;
+  }
+  /* End Variables */
+  /* Start Global Rules */
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-boxd;
+  }
+  body {
+    font-family: 'Work Sans', sans-serif;
+  } 
+  h1 {
+    color: var(--mainColor, black);
+    padding: var(--mainPadding);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    
+  }
+.form{
+  color: var(--mainColor, black);
+  padding: var(--mainPadding);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+::placeholder {
+  color:red;
+}
+input[submit] {
+  color: var(--mainColor);
+  border-radius: 10px;
+}
